@@ -158,13 +158,12 @@ nav {
 
 .label::before {
   content: "";
-  z-index: 101;
+  z-index: 150;
   height: 1em;
   width: 1em;
   margin-right: 0.5em;
   border: 0.1rem solid #fff;
   border-radius: 50%;
-  transition: all 0.25s linear;
 }
 
 .slideshow {
@@ -190,7 +189,7 @@ nav {
 .slideshow input {
   position: absolute;
   bottom: 20px;
-  z-index: 101;
+  z-index: 100;
   border: none;
 }
 
@@ -228,7 +227,7 @@ nav {
 
 [id^="slide"]:checked+.slide {
   left: 0;
-  z-index: 50;
+  z-index: 1;
   opacity: 1;
   transition: opacity 1000ms ease-out;
 }
@@ -250,7 +249,7 @@ nav {
   justify-self: center;
   color: white;
   text-align: center;
-  z-index: 100;
+  z-index: 200;
 }
 
 .jumbo-heading {
@@ -439,7 +438,7 @@ footer {
   margin-left: 20px;
 }
 
-.push {
+.logo {
   margin-left: auto;
 }
 
@@ -481,4 +480,3 @@ footer {
     flex-direction: column;
   }
 }
-
