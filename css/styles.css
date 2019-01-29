@@ -482,12 +482,12 @@ footer {
   }
 }
 
-@media only screen and (max-height: 400px) {
-  .info {
-    margin-top: 100px;
+@media only screen and (max-height: 450px) {
+  .info-p {
+    margin-top: 75px;
   }
 
-  .jumbo {
-    margin-top: 200px;
+  .jumbo-heading {
+    margin-top: 100px;
   }
 }
