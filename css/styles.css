@@ -285,6 +285,7 @@ nav {
 
 .info {
   background: white;
+  padding: 50x 0 50px 0;
 }
 
 .info-content {
@@ -299,7 +300,7 @@ nav {
   text-align: center;
   font-size: 1.25em;
   margin-bottom: 60px;
-  line-height: 1.75
+  line-height: 1.75;
 }
 
 .info-link {
@@ -478,5 +479,15 @@ footer {
   .nav-list {
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media only screen and (max-height: 400px) {
+  .info {
+    margin-top: 100px;
+  }
+
+  .jumbo {
+    margin-top: 200px;
   }
 }
